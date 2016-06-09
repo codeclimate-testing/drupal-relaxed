@@ -1,0 +1,13 @@
+---
+engines:
+  phpcodesniffer:
+    enabled: true
+    standard: "Drupal,DrupalPractice"
+ratings:
+  paths:
+  - "**.inc"
+  - "**.module"
+  - "**.php"
+exclude_paths:
+- config/
+- tests/
