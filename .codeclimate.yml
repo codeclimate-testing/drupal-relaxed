@@ -2,7 +2,8 @@
 engines:
   phpcodesniffer:
     enabled: true
-    standard: "Drupal,DrupalPractice"
+    config:
+      standard: "Drupal,DrupalPractice"
 ratings:
   paths:
   - "**.inc"
